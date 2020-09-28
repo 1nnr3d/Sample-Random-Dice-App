@@ -1,5 +1,5 @@
 import sys
-import random
+import random2
 from PyQt5 import QtWidgets
 from PyQt5 import QtGui
 from PyQt5 import QtCore
@@ -82,7 +82,7 @@ class mainWindow(QtWidgets.QMainWindow):
         self.gif.start()
 
         self.diceS = [dice1,dice2,dice3,dice4,dice5,dice6]
-        self.dice = random.choice(self.diceS)
+        self.dice = random2.choice(self.diceS)
 
         QtTest.QTest.qWait(5000)
 
@@ -100,8 +100,8 @@ class mainWindow(QtWidgets.QMainWindow):
         self.gif.start()
 
         self.diceS = [dice1,dice2,dice3,dice4,dice5,dice6]
-        self.dice1 = random.choice(self.diceS)
-        self.dice2 = random.choice(self.diceS)
+        self.dice1 = random2.choice(self.diceS)
+        self.dice2 = random2.choice(self.diceS)
 
         QtTest.QTest.qWait(5000)
 
