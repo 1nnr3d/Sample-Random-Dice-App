@@ -10,8 +10,9 @@ Sample Random Dice App / Örnek Rastgele Zar Uygulaması
 
 ```css
 
-pip install random
-pip install PyQt5
+pip install -r requirements.txt 
+or
+py -m pip install -r requirements.txt
 
 ```
 
