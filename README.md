@@ -19,7 +19,7 @@ py -m pip install -r requirements.txt
 #### Python Version 
       3.8.5
 
-# Image / Görüntüw
+# Image / Görüntü
 ![Image](https://github.com/1nnr3d/Sample-Random-Dice-App/blob/master/images/image.PNG)
 
 
